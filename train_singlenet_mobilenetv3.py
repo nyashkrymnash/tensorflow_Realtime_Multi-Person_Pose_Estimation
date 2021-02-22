@@ -13,10 +13,10 @@ from util import plot_to_image, probe_model_singlenet
 
 
 pretrained_mobilenet_v3_url = "https://github.com/michalfaber/tf_netbuilder/releases/download/v1.0/mobilenet_v3_224_1_0.zip"
-annot_path_train = '../datasets/coco_2017_dataset/annotations/person_keypoints_train2017.json'
-img_dir_train = '../datasets/coco_2017_dataset/train2017/'
-annot_path_val = '../datasets/coco_2017_dataset/annotations/person_keypoints_val2017.json'
-img_dir_val = '../datasets/coco_2017_dataset/val2017/'
+annot_path_train = '../input/coco-2017-dataset/coco2017/annotations/person_keypoints_train2017.json'
+img_dir_train = '../input/coco-2017-dataset/coco2017/train2017/'
+annot_path_val = '../input/coco-2017-dataset/coco2017/annotations/person_keypoints_val2017.json'
+img_dir_val = '../input/coco-2017-dataset/coco2017/val2017/'
 checkpoints_folder = './tf_ckpts_singlenet'
 output_weights = 'output_singlenet/openpose_singlenet'
 batch_size = 10
